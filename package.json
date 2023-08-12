@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "watch": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "ra-diploma-back",
+  "description": "Дипломный проект представляет собой интернет-магазин обуви. Задача заключается в создании работающего приложения, всеми основными функциями которого можно пользоваться.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
